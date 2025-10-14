@@ -1,0 +1,14 @@
+---
+format:
+  revealjs
+---
+
+## {auto-animate=true}
+
+- Animation
+
+## {auto-animate=true}
+
+- Implicit
+
+- Animation

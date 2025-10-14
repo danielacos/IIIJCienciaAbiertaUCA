@@ -1,0 +1,53 @@
+
+```{mermaid}
+flowchart TB
+    subgraph tumores["<b>Crecimiento tumoral</b>"]
+    t1("fa:fa-book <b>U. DE OVIEDO</b><br><i>On numerical...</i>")-->t2("fa:fa-file <b>COMPUT. MATH. APPL.</b><br><i>A structure-preserving...</i>")
+    end
+    subgraph fases["<b>Campos de fase</b>"]
+    f2("fa:fa-file <b>NUMER. ALGORITHMS</b><br><i>An upwind DG scheme...</i>")-->f1("fa:fa-file <b>APPL. NUMER. MATH.</b><br><i>Property-preserving...</i>")
+    end
+    subgraph quimio["<b>Quimiotaxis</b>"]
+    q1("fa:fa-file <b>J. SCI. COMPUT.</b><br><i>An Unconditionally...</i>")-->q2("fa:fa-file <b>STUD. APPL. MATH.</b><br><i>Dissipative Gradient...</i>")
+    q2-->q3("fa:fa-book <b>SEMA SIMAI SPRINGER</b><br><i>On a linear DG...</i>")
+    q2-->q4("fa:fa-book <b>SEMA SIMAI SPRINGER</b><br><i>Boundedness in a...</i>")
+    q1-->q5("fa:fa-file <b>MATH. BIOSCI.</b><br><i>Mathematical modeling...</i>")
+    end
+    
+    f2 ==> t2
+    q1 ==> t2
+    f2 ==> q1
+
+    %% https://colorhunt.co/palette/f47c7cef9f9ffad4d4fff2f2
+    style tumores color:navy
+    style tumores fill:#FAD4D4
+    style tumores stroke:#F47C7C
+    style t1 fill:#F47C7C
+    style t1 color:white
+    style t2 fill:#F47C7C
+    style t2 color:white
+
+    %% https://colorhunt.co/palette/eef5ffb4d4ff86b6f6176b87
+    style fases color:navy
+    style fases fill:#EEF5FF
+    style fases stroke:#86B6F6
+    style f1 fill:#86B6F6
+    style f1 color:white
+    style f2 fill:#86B6F6
+    style f2 color:white
+
+    %% https://colorhunt.co/palette/ecfae5ddf6d2cae8bdb0db9c
+    style quimio color:navy
+    style quimio fill:#ECFAE5
+    style quimio stroke:#B0DB9C
+    style q1 fill:#B0DB9C
+    style q1 color:white
+    style q2 fill:#B0DB9C
+    style q2 color:white
+    style q3 fill:#B0DB9C
+    style q3 color:white
+    style q4 fill:#B0DB9C
+    style q4 color:white
+    style q5 fill:#B0DB9C
+    style q5 color:white
+```

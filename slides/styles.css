@@ -1,0 +1,86 @@
+/* Estilo personalizado para la presentación Quarto - Marta Baldomero */
+
+:root {
+  /* --main-color: #00557f; Azul UCA */
+  --accent-color: #7fb800; /* Verde sostenible */
+  --text-color: #2e2e2e;
+  /* --bg-color: #f9f9f9; */
+  /* --heading-font: 'Georgia', serif;
+  --body-font: 'Helvetica Neue', sans-serif; */
+}
+
+.reveal {
+  font-family: var(--body-font);
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: var(--main-color);
+  font-family: var(--heading-font);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.2em;
+}
+
+.reveal .slide blockquote {
+  border-left: 5px solid var(--main-color);
+  padding-left: 1em;
+  font-style: italic;
+  color: #444;
+}
+
+.reveal .slide ul li::marker {
+  color: var(--accent-color);
+}
+
+/* .reveal .footer {
+  font-size: 0.7em;
+  color: var(--main-color);
+  position: absolute;
+  bottom: 0.5em;
+  right: 1em;
+} */
+
+/* Logo */
+.reveal .slide-logo {
+  height: 100px !important;
+}
+
+/* Título portada */
+.reveal h1.title {
+  font-size: 2em;
+  color: var(--main-color);
+}
+
+/* Título secciones */
+.reveal .title-slide.slide h1 {
+  font-size: 2em;
+  color: var(--main-color);
+}
+
+/* Estilo para enfatizar texto */
+.reveal strong {
+  color:navy;
+}
+
+/* Estilo para el tercer nivel de listas anidadas */
+.reveal .slide ul ul ul > li::marker {
+  color: navy;
+}
+
+/* Thicker bullet for third-level lists */
+/* .reveal .slide ul ul ul > li::before {
+  list-style-type: disc;
+}
+.reveal .slide ul ul ul > li::marker {
+  text-shadow: 0 0 0 2px navy;
+} */
+
+.reveal .fig-caption {
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5em;
+}
