@@ -353,5 +353,29 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 :::
 
-# Conclusiones
+# Conclusiones {auto-animate="true"}
+
+## Conclusiones {auto-animate="true"}
+
+- **Modelizar con EDP y métodos numéricos robustos.** Las ecuaciones en derivadas parciales permiten describir procesos complejos (migración celular, crecimiento tumoral, interacción de fluidos) y requieren métodos adecuados para su aproximación.
+
+
+## Conclusiones {auto-animate="true"}
+
+- **Los métodos de Galerkin son muy versátiles.** Especialmente útiles en dominios irregulares y para modelos complejos; bibliotecas modernas facilitan su uso.
+- <div style="opacity: 0.2">Modelizar con EDP y métodos numéricos robustos.</div>
+
+## Conclusiones {auto-animate="true"}
+
+- **Elegir herramienta según necesidad.** El software de pago ofrece facilidad y soporte a un alto coste; el software libre (ej. FEniCSx) aporta rendimiento, transparencia y personalización.
+- <div style="opacity: 0.2">Los métodos de Galerkin son muy versátiles.</div>
+- <div style="opacity: 0.2">Modelizar con EDP y métodos numéricos robustos.</div>
+
+
+## Conclusiones {auto-animate="true"}
+
+- **Ciencia abierta y reproducibilidad.** Publicar código, datos y ejemplos (GitHub, documentación) mejora la colaboración y la validación científica.
+- <div style="opacity: 0.2">Elegir herramienta según necesidad.</div>
+- <div style="opacity: 0.2">Los métodos de Galerkin son muy versátiles.</div>
+- <div style="opacity: 0.2">Modelizar con EDP y métodos numéricos robustos.</div>
 
