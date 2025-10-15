@@ -35,6 +35,10 @@
   color: var(--accent-color);
 }
 
+.reveal .slide ol li::marker {
+  color: var(--accent-color);
+}
+
 /* .reveal .footer {
   font-size: 0.7em;
   color: var(--main-color);

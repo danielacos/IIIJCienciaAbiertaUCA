@@ -23,7 +23,25 @@ format:
 
 - **Profesor ayudante doctor** en el Departamento de Matemáticas (Universidad de Cádiz).
 - <u>Tesis doctoral</u>: _Analysis and numerical simulation of tumor growth models_ (Universidad de Cádiz y University of Tennessee at Chattanooga).
-- Línea de interés: modelización y simulación matemática de procesos biológicos y físicos (migración celular, crecimiento tumoral, interacción entre fluidos...).
+- <u>Línea de interés</u>: modelización y simulación matemática de procesos biológicos y físicos (migración celular, crecimiento tumoral, interacción entre fluidos...).
+
+# Modelización y simulación matemática {auto-animate="true"  style="font-size: 0.75em"}
+1. Descripción de procesos mediante ecuaciones en derivadas parciales (EDP):
+
+<!-- \begin{align}
+  \partial_t u&=\nabla\cdot\left(M_u\nabla\mu_u\right)+\delta P(u)(\mu_n-\mu_u) \quad&\text{en }\Omega\times (0,T),\\
+  \mu_u&=F'(u)-\varepsilon^2\Delta u-\chi_0 n\quad&\text{en }\Omega\times (0,T),\\
+  \partial_t n&=\nabla\cdot\left(M_n\nabla\mu_n\right)-\delta P(u) (\mu_n-\mu_u) \quad&\text{en }\Omega\times (0,T),\\
+  \mu_n&=\frac{1}{\delta} n -\chi_0 u \quad&\text{en }\Omega\times (0,T),\\
+  \nabla u\cdot \mathbf{n}&=\left( M_n\nabla \mu_n\right)\cdot \mathbf{n}=\left( M_u\nabla \mu_u\right)\cdot \mathbf{n}=0 \quad &\text{sobre }\partial\Omega\times (0,T),\\
+  u(0)&=u_0,\quad n(0)=n_0\quad&\text{en }\Omega.
+\end{align} -->
+
+2. Aproximación de la solución de estos modelos mediante diferentes técnicas:
+  <!-- - Método de diferencias finitas.
+  - **Método de los elementos finitos.**
+  - Método de volúmenes finitos.
+  - **Método de Galerkin discontinuo.** -->
 
 # Modelización y simulación matemática {auto-animate="true"  style="font-size: 0.75em"}
 1. Descripción de procesos mediante ecuaciones en derivadas parciales (EDP):
@@ -36,6 +54,24 @@ format:
   \nabla u\cdot \mathbf{n}&=\left( M_n\nabla \mu_n\right)\cdot \mathbf{n}=\left( M_u\nabla \mu_u\right)\cdot \mathbf{n}=0 \quad &\text{sobre }\partial\Omega\times (0,T),\\
   u(0)&=u_0,\quad n(0)=n_0\quad&\text{en }\Omega.
 \end{align}
+
+2. <div style="opacity: 0.2">Aproximación de la solución de estos modelos mediante diferentes técnicas:</div>
+  <!-- - Método de diferencias finitas.
+  - **Método de los elementos finitos.**
+  - Método de volúmenes finitos.
+  - **Método de Galerkin discontinuo.** -->
+
+# Modelización y simulación matemática {auto-animate="true"  style="font-size: 0.75em"}
+1. <div style="opacity: 0.2">Descripción de procesos mediante ecuaciones en derivadas parciales (EDP):</div>
+
+<!-- \begin{align}
+  \partial_t u&=\nabla\cdot\left(M_u\nabla\mu_u\right)+\delta P(u)(\mu_n-\mu_u) \quad&\text{en }\Omega\times (0,T),\\
+  \mu_u&=F'(u)-\varepsilon^2\Delta u-\chi_0 n\quad&\text{en }\Omega\times (0,T),\\
+  \partial_t n&=\nabla\cdot\left(M_n\nabla\mu_n\right)-\delta P(u) (\mu_n-\mu_u) \quad&\text{en }\Omega\times (0,T),\\
+  \mu_n&=\frac{1}{\delta} n -\chi_0 u \quad&\text{en }\Omega\times (0,T),\\
+  \nabla u\cdot \mathbf{n}&=\left( M_n\nabla \mu_n\right)\cdot \mathbf{n}=\left( M_u\nabla \mu_u\right)\cdot \mathbf{n}=0 \quad &\text{sobre }\partial\Omega\times (0,T),\\
+  u(0)&=u_0,\quad n(0)=n_0\quad&\text{en }\Omega.
+\end{align} -->
 
 2. Aproximación de la solución de estos modelos mediante diferentes técnicas:
   - Método de diferencias finitas.
@@ -82,7 +118,31 @@ Ventajas: uso gratuito, se puede ver y modificar el código de las bibliotecas.
 Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se utilizan), la documentación y el soporte dependen de la comunidad.
 ::: -->
 
-## Software de pago
+## Software de pago {auto-animate="true"}
+
+<!-- Software de pago: -->
+- Matlab.
+- COMSOL.
+- Ansys.
+- Simscale.
+  
+<!-- **Ventajas:** sencillos de usar (alto nivel), buena documentación y soporte.
+
+**Desventajas:** muy costosos, no controlas cómo funciona internamente el programa ("cajas negras"). -->
+
+## Software de pago {auto-animate="true"}
+
+<!-- Software de pago: -->
+- Matlab.
+- COMSOL.
+- Ansys.
+- Simscale.
+  
+**Ventajas:** sencillos de usar (alto nivel), buena documentación y soporte.
+
+<!-- **Desventajas:** muy costosos, no controlas cómo funciona internamente el programa ("cajas negras"). -->
+
+## Software de pago {auto-animate="true"}
 
 <!-- Software de pago: -->
 - Matlab.
@@ -94,7 +154,33 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 **Desventajas:** muy costosos, no controlas cómo funciona internamente el programa ("cajas negras").
 
-## Software libre
+## Software libre {auto-animate="true" style="font-size: 0.9em"}
+
+<!-- Software libre: -->
+- FreeFEM++.
+- FEniCS.
+- Firedrake.
+- MFEM.
+- Dune.
+
+<!-- **Ventajas:** uso gratuito, se puede ver y modificar el código de las bibliotecas.
+
+**Desventajas:** bajo nivel (necesitas controlar los detalles de los métodos que se utilizan), la documentación y el soporte dependen de la comunidad. -->
+
+## Software libre {auto-animate="true" style="font-size: 0.9em"}
+
+<!-- Software libre: -->
+- FreeFEM++.
+- FEniCS.
+- Firedrake.
+- MFEM.
+- Dune.
+
+**Ventajas:** uso gratuito, se puede ver y modificar el código de las bibliotecas.
+
+<!-- **Desventajas:** bajo nivel (necesitas controlar los detalles de los métodos que se utilizan), la documentación y el soporte dependen de la comunidad. -->
+
+## Software libre {auto-animate="true" style="font-size: 0.9em"}
 
 <!-- Software libre: -->
 - FreeFEM++.
@@ -107,18 +193,56 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 **Desventajas:** bajo nivel (necesitas controlar los detalles de los métodos que se utilizan), la documentación y el soporte dependen de la comunidad.
 
-## FEniCS
+## FEniCS {auto-animate="true"}
+
+![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
 
 - Software libre para implementar métodos de resolución de EDP.
+
+<!-- - Software libre para implementar métodos de resolución de EDP.
 - Proyecto iniciado en 2003.
 - Gran actualización en 2021 a FEniCSx.
 - Programado en C++ con interfaz en Python.
-- Muy buena documentación (ejemplos, tutoriales, etc.) y soporte (foro activo por parte de la comunidad).
+- Muy buena documentación (ejemplos, tutoriales, etc.) y soporte (foro activo por parte de la comunidad). -->
 <!-- - Módulos:
   - **DOLFINx:** núcleo en C++ de FEniCSx que implementa estructuras y rutinas de cálculo, con interfaz a solvers como PETSc.
   - **UFL:** lenguaje de alto nivel para describir formulaciones variacionales con sintaxis matemática.
   - **FFCx:** compila formulaciones en UFL y genera código C eficiente.
   - **Basix:** genera las funciones base de los elementos finitos. -->
+
+## FEniCS {auto-animate="true"}
+
+![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
+
+- Proyecto iniciado en 2003.
+- <div style="opacity: 0.2">Software libre para implementar métodos de resolución de EDP.</div>
+
+## FEniCS {auto-animate="true"}
+
+![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
+
+- Gran actualización en 2021 a FEniCSx.
+- <div style="opacity: 0.2">Proyecto iniciado en 2003.</div>
+- <div style="opacity: 0.2">Software libre para implementar métodos de resolución de EDP.</div>
+
+## FEniCS {auto-animate="true"}
+
+![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
+
+- Programado en C++ con interfaz en Python.
+- <div style="opacity: 0.2">Gran actualización en 2021 a FEniCSx.</div>
+- <div style="opacity: 0.2">Proyecto iniciado en 2003.</div>
+- <div style="opacity: 0.2">Software libre para implementar métodos de resolución de EDP.</div>
+
+## FEniCS {auto-animate="true"}
+
+![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
+
+- Muy buena documentación (ejemplos, tutoriales, etc.) y soporte (foro activo por parte de la comunidad).
+- <div style="opacity: 0.2">Programado en C++ con interfaz en Python.</div>
+- <div style="opacity: 0.2">Gran actualización en 2021 a FEniCSx.</div>
+- <div style="opacity: 0.2">Proyecto iniciado en 2003.</div>
+- <div style="opacity: 0.2">Software libre para implementar métodos de resolución de EDP.</div>
 
 ## Web de FEniCS
 
@@ -152,9 +276,9 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 # Simulación de procesos biológicos y físicos
 
-## Migración celular en el cerebro de roedores
+## Migración celular en el cerebro de roedores {style="font-size: 0.8em"}
 
-::: {layout-ncol=2 style="text-align:center"}
+::: {layout-ncol=2 style="text-align:center; margin-top: 2em"}
 
 ![Observación de células marcadas al microscopio](img/mouse-brain.png){width="500"}
 
@@ -162,7 +286,7 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 :::
 
-## Migración celular en el cerebro de roedores
+## Migración celular en el cerebro de roedores {style="font-size: 0.8em"}
 
 ::: {.scroll-container style="overflow-y: scroll; height:500px"}
 <a href="https://doi.org/10.1016/j.mbs.2025.109446" target="_blank">
