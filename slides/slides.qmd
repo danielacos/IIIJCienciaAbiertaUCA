@@ -196,7 +196,7 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 ![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
 
-- Software libre para implementar métodos de resolución de EDP.
+- **Software libre** para implementar métodos de resolución de EDP.
 
 <!-- - Software libre para implementar métodos de resolución de EDP.
 - Proyecto iniciado en 2003.
@@ -213,34 +213,34 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 ![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
 
-- Proyecto iniciado en 2003.
+- **Proyecto iniciado en 2003** por investigadores de prestigio en el área.
 - <div style="opacity: 0.2">Software libre para implementar métodos de resolución de EDP.</div>
 
 ## FEniCS {auto-animate="true"}
 
 ![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
 
-- Gran actualización en 2021 a FEniCSx.
-- <div style="opacity: 0.2">Proyecto iniciado en 2003.</div>
+- **Gran actualización en 2021 a FEniCSx** para permitir el desarrollo de nuevas funcionalidades.
+- <div style="opacity: 0.2">Proyecto iniciado en 2003 por investigadores de prestigio en el área.</div>
 - <div style="opacity: 0.2">Software libre para implementar métodos de resolución de EDP.</div>
 
 ## FEniCS {auto-animate="true"}
 
 ![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
 
-- Programado en C++ con interfaz en Python.
-- <div style="opacity: 0.2">Gran actualización en 2021 a FEniCSx.</div>
-- <div style="opacity: 0.2">Proyecto iniciado en 2003.</div>
+- Programado en C++ con **interfaz en Python**.
+- <div style="opacity: 0.2">Gran actualización en 2021 a FEniCSx para permitir el desarrollo de nuevas funcionalidades.</div>
+- <div style="opacity: 0.2">Proyecto iniciado en 2003 por investigadores de prestigio en el área.</div>
 - <div style="opacity: 0.2">Software libre para implementar métodos de resolución de EDP.</div>
 
 ## FEniCS {auto-animate="true"}
 
 ![](img/fenics_logo.png){.absolute top=-50 right=720 height="110px"}
 
-- Muy buena documentación (ejemplos, tutoriales, etc.) y soporte (foro activo por parte de la comunidad).
+- **Muy buena documentación** (ejemplos, tutoriales, etc.) **y soporte** (foro activo por parte de la comunidad).
 - <div style="opacity: 0.2">Programado en C++ con interfaz en Python.</div>
-- <div style="opacity: 0.2">Gran actualización en 2021 a FEniCSx.</div>
-- <div style="opacity: 0.2">Proyecto iniciado en 2003.</div>
+- <div style="opacity: 0.2">Gran actualización en 2021 a FEniCSx para permitir el desarrollo de nuevas funcionalidades.</div>
+- <div style="opacity: 0.2">Proyecto iniciado en 2003 por investigadores de prestigio en el área.</div>
 - <div style="opacity: 0.2">Software libre para implementar métodos de resolución de EDP.</div>
 
 ## Web de FEniCS
@@ -356,34 +356,34 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 ## Conclusiones {auto-animate="true"}
 
-- **Modelización con EDP y métodos numéricos robustos.**
-  - Las EDP describen procesos complejos (migración celular, crecimiento tumoral, interacción de fluidos)
+- **Modelización con EDP y métodos numéricos robustos**
+  - Las EDP describen procesos complejos (migración celular, crecimiento tumoral, interacción de fluidos).
   - Los modelos requieren métodos adecuados para su aproximación.
 
 
 ## Conclusiones {auto-animate="true"}
 
-- **Los métodos de Galerkin son muy versátiles.**
+- **Los métodos de Galerkin son muy versátiles**
   - Especialmente útiles en dominios irregulares y para modelos complejos.
   - Las bibliotecas modernas facilitan su uso.
-- <div style="opacity: 0.2">Modelización con EDP y métodos numéricos robustos.</div>
+- <div style="opacity: 0.2">Modelización con EDP y métodos numéricos robustos</div>
 
 ## Conclusiones {auto-animate="true"}
 
-- **Software libre como alternativa.**
+- **Software libre como alternativa**
   - Aporta transparencia y personalización.
   - Existen herramientas (ej. FEniCSx) con buena documentación y fáciles de usar.
-- <div style="opacity: 0.2">Los métodos de Galerkin son muy versátiles.</div>
-- <div style="opacity: 0.2">Modelización con EDP y métodos numéricos robustos.</div>
+- <div style="opacity: 0.2">Los métodos de Galerkin son muy versátiles</div>
+- <div style="opacity: 0.2">Modelización con EDP y métodos numéricos robustos</div>
 
 
 ## Conclusiones {auto-animate="true"}
 
-- **Ciencia abierta y reproducibilidad.**   
+- **Ciencia abierta y reproducibilidad**   
   - Publicar código, datos y ejemplos mejora la colaboración y la validación científica.
   - Impulsa el impacto de los resultados de la investigación en la sociedad.
-- <div style="opacity: 0.2">Software libre como alternativa.</div>
-- <div style="opacity: 0.2">Los métodos de Galerkin son muy versátiles.</div>
-- <div style="opacity: 0.2">Modelización con EDP y métodos numéricos robustos.</div>
+- <div style="opacity: 0.2">Software libre como alternativa</div>
+- <div style="opacity: 0.2">Los métodos de Galerkin son muy versátiles</div>
+- <div style="opacity: 0.2">Modelización con EDP y métodos numéricos robustos</div>
 
 ## {.placeholder-for-titleSlide visibility="uncounted"}
