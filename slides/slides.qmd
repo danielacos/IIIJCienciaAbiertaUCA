@@ -1,6 +1,6 @@
 ---
 title: "Modelar, simular y compartir: ciencia abierta en la investigación matemática"
-subtitle: " III Jornada de Ciencia Abierta - Universidad de Cádiz"
+subtitle: "III Jornada de Ciencia Abierta - Universidad de Cádiz"
 author: "Daniel Acosta Soba"
 format:
   revealjs:
@@ -12,7 +12,6 @@ format:
     css: styles.css
     chalkboard: false
     lang: es
-    # incremental: true
     include-in-header: append-title-slide.html
     embed-resources: true
     cap-location: bottom
@@ -26,7 +25,7 @@ format:
 - <u>Línea de interés</u>: modelización y simulación matemática de procesos biológicos y físicos (migración celular, crecimiento tumoral, interacción entre fluidos...).
 
 # Modelización y simulación matemática {auto-animate="true"  style="font-size: 0.75em"}
-1. Descripción de procesos mediante ecuaciones en derivadas parciales (EDP):
+1. Descripción de procesos mediante ecuaciones en derivadas parciales (EDP)
 
 <!-- \begin{align}
   \partial_t u&=\nabla\cdot\left(M_u\nabla\mu_u\right)+\delta P(u)(\mu_n-\mu_u) \quad&\text{en }\Omega\times (0,T),\\
@@ -37,14 +36,14 @@ format:
   u(0)&=u_0,\quad n(0)=n_0\quad&\text{en }\Omega.
 \end{align} -->
 
-2. Aproximación de la solución de estos modelos mediante diferentes técnicas:
+2. Aproximación de la solución de estos modelos mediante diferentes técnicas
   <!-- - Método de diferencias finitas.
   - **Método de los elementos finitos.**
   - Método de volúmenes finitos.
   - **Método de Galerkin discontinuo.** -->
 
 # Modelización y simulación matemática {auto-animate="true"  style="font-size: 0.75em"}
-1. Descripción de procesos mediante ecuaciones en derivadas parciales (EDP):
+1. **Descripción de procesos mediante ecuaciones en derivadas parciales (EDP)**
 
 \begin{align}
   \partial_t u&=\nabla\cdot\left(M_u\nabla\mu_u\right)+\delta P(u)(\mu_n-\mu_u) \quad&\text{en }\Omega\times (0,T),\\
@@ -55,14 +54,14 @@ format:
   u(0)&=u_0,\quad n(0)=n_0\quad&\text{en }\Omega.
 \end{align}
 
-2. <div style="opacity: 0.2">Aproximación de la solución de estos modelos mediante diferentes técnicas:</div>
+2. <div style="opacity: 0.2">Aproximación de la solución de estos modelos mediante diferentes técnicas</div>
   <!-- - Método de diferencias finitas.
   - **Método de los elementos finitos.**
   - Método de volúmenes finitos.
   - **Método de Galerkin discontinuo.** -->
 
 # Modelización y simulación matemática {auto-animate="true"  style="font-size: 0.75em"}
-1. <div style="opacity: 0.2">Descripción de procesos mediante ecuaciones en derivadas parciales (EDP):</div>
+1. <div style="opacity: 0.2">Descripción de procesos mediante ecuaciones en derivadas parciales (EDP)</div>
 
 <!-- \begin{align}
   \partial_t u&=\nabla\cdot\left(M_u\nabla\mu_u\right)+\delta P(u)(\mu_n-\mu_u) \quad&\text{en }\Omega\times (0,T),\\
@@ -73,11 +72,11 @@ format:
   u(0)&=u_0,\quad n(0)=n_0\quad&\text{en }\Omega.
 \end{align} -->
 
-2. Aproximación de la solución de estos modelos mediante diferentes técnicas:
+2. **Aproximación de la solución de estos modelos mediante diferentes técnicas**
   - Método de diferencias finitas.
-  - **Método de los elementos finitos.**
   - Método de volúmenes finitos.
-  - **Método de Galerkin discontinuo.**
+  - <b>Método de los elementos finitos.</b>
+  - <b>Método de Galerkin discontinuo.</b>
 
 # Software para simulación matemática
 
@@ -122,7 +121,7 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 <!-- Software de pago: -->
 - Matlab.
-- COMSOL.
+- COMSOL Multyphysics.
 - Ansys.
 - Simscale.
   
@@ -134,7 +133,7 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 <!-- Software de pago: -->
 - Matlab.
-- COMSOL.
+- COMSOL Multyphysics.
 - Ansys.
 - Simscale.
   
@@ -146,7 +145,7 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 <!-- Software de pago: -->
 - Matlab.
-- COMSOL.
+- COMSOL Multyphysics.
 - Ansys.
 - Simscale.
   
@@ -357,25 +356,34 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 
 ## Conclusiones {auto-animate="true"}
 
-- **Modelizar con EDP y métodos numéricos robustos.** Las ecuaciones en derivadas parciales permiten describir procesos complejos (migración celular, crecimiento tumoral, interacción de fluidos) y requieren métodos adecuados para su aproximación.
+- **Modelización con EDP y métodos numéricos robustos.**
+  - Las EDP describen procesos complejos (migración celular, crecimiento tumoral, interacción de fluidos)
+  - Los modelos requieren métodos adecuados para su aproximación.
 
 
 ## Conclusiones {auto-animate="true"}
 
-- **Los métodos de Galerkin son muy versátiles.** Especialmente útiles en dominios irregulares y para modelos complejos; bibliotecas modernas facilitan su uso.
-- <div style="opacity: 0.2">Modelizar con EDP y métodos numéricos robustos.</div>
+- **Los métodos de Galerkin son muy versátiles.**
+  - Especialmente útiles en dominios irregulares y para modelos complejos.
+  - Las bibliotecas modernas facilitan su uso.
+- <div style="opacity: 0.2">Modelización con EDP y métodos numéricos robustos.</div>
 
 ## Conclusiones {auto-animate="true"}
 
-- **Elegir herramienta según necesidad.** El software de pago ofrece facilidad y soporte a un alto coste; el software libre (ej. FEniCSx) aporta rendimiento, transparencia y personalización.
+- **Software libre como alternativa.**
+  - Aporta transparencia y personalización.
+  - Existen herramientas (ej. FEniCSx) con buena documentación y fáciles de usar.
 - <div style="opacity: 0.2">Los métodos de Galerkin son muy versátiles.</div>
-- <div style="opacity: 0.2">Modelizar con EDP y métodos numéricos robustos.</div>
+- <div style="opacity: 0.2">Modelización con EDP y métodos numéricos robustos.</div>
 
 
 ## Conclusiones {auto-animate="true"}
 
-- **Ciencia abierta y reproducibilidad.** Publicar código, datos y ejemplos (GitHub, documentación) mejora la colaboración y la validación científica.
-- <div style="opacity: 0.2">Elegir herramienta según necesidad.</div>
+- **Ciencia abierta y reproducibilidad.**   
+  - Publicar código, datos y ejemplos mejora la colaboración y la validación científica.
+  - Impulsa el impacto de los resultados de la investigación en la sociedad.
+- <div style="opacity: 0.2">Software libre como alternativa.</div>
 - <div style="opacity: 0.2">Los métodos de Galerkin son muy versátiles.</div>
-- <div style="opacity: 0.2">Modelizar con EDP y métodos numéricos robustos.</div>
+- <div style="opacity: 0.2">Modelización con EDP y métodos numéricos robustos.</div>
 
+## {.placeholder-for-titleSlide visibility="uncounted"}
