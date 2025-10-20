@@ -357,7 +357,7 @@ Desventajas: bajo nivel (necesitas controlar los detalles de los métodos que se
 ## Conclusiones {auto-animate="true"}
 
 - **Modelización con EDP y métodos numéricos robustos**
-  - Las EDP describen procesos complejos (migración celular, crecimiento tumoral, interacción de fluidos).
+  - Las EDP describen procesos complejos (migración celular, crecimiento tumoral, interacción de fluidos...).
   - Los modelos requieren métodos adecuados para su aproximación.
 
 
