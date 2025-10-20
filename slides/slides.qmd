@@ -45,14 +45,19 @@ format:
 # Modelización y simulación matemática {auto-animate="true"  style="font-size: 0.75em"}
 1. **Descripción de procesos mediante ecuaciones en derivadas parciales (EDP)**
 
-\begin{align}
+::: {style="text-align:center"}
+![Modelo de tumores](img/eqn.png){fig-align="center" height="200px"}
+
+:::
+
+<!-- \begin{align}
   \partial_t u&=\nabla\cdot\left(M_u\nabla\mu_u\right)+\delta P(u)(\mu_n-\mu_u) \quad&\text{en }\Omega\times (0,T),\\
   \mu_u&=F'(u)-\varepsilon^2\Delta u-\chi_0 n\quad&\text{en }\Omega\times (0,T),\\
   \partial_t n&=\nabla\cdot\left(M_n\nabla\mu_n\right)-\delta P(u) (\mu_n-\mu_u) \quad&\text{en }\Omega\times (0,T),\\
   \mu_n&=\frac{1}{\delta} n -\chi_0 u \quad&\text{en }\Omega\times (0,T),\\
   \nabla u\cdot \mathbf{n}&=\left( M_n\nabla \mu_n\right)\cdot \mathbf{n}=\left( M_u\nabla \mu_u\right)\cdot \mathbf{n}=0 \quad &\text{sobre }\partial\Omega\times (0,T),\\
   u(0)&=u_0,\quad n(0)=n_0\quad&\text{en }\Omega.
-\end{align}
+\end{align} -->
 
 2. <div style="opacity: 0.2">Aproximación de la solución de estos modelos mediante diferentes técnicas</div>
   <!-- - Método de diferencias finitas.
